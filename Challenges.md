@@ -21,7 +21,8 @@ We must found an upload file who contain the flag.
 I started by filtering using the http protocol. Browsing through the captured packets I found a file named upload.php.
 <img src="images/upload.png" height="50%" width="70%">
 
-Following the tcp stream we have:
+Following the tcp stream we have.
+
 <img src="images/tcpstream.png" height="50%" width="70%">
 
 The flag is : `GitsCTF{F4R3NC1$_N3TW0KS}`
