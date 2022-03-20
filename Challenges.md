@@ -18,9 +18,10 @@ We have a pcap file named FORENSIC1.pcap
 
 We must found an upload file who contain the flag.
 
-Filter by http, we can see five files uploded:
---> upload.php
---> .....
+I started by filtering using the http protocol. Browsing through the captured packets I found a file named upload.php.
+<img src="images/upload.png" height="50%" width="70%">
 
+Following the tcp stream we have:
+<img src="images/tcpstrem.png" height="50%" width="70%">
 
 The flag is : `GitsCTF{F4R3NC1$_N3TW0KS}`
