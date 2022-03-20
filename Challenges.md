@@ -11,7 +11,6 @@ Une fois décodé on obtient le flag : `GitsCTF{} `
 
 
 ## FTP Stuck Challenge -- Forensic
-<img src="images/nta-chal1.png" height="50%" width="70%">
 
 Nous avons un fichier pcap nommé FORENSIC1.pcap
 
@@ -19,7 +18,7 @@ Nous devons retrouvé la trace d'un fichier uploader pour trouver le flag.
 
 J'ai commencé par filtrer les packets suivant le protocol http. En parcourant les packets obtenus, on trouve un fichier nommé upload.php .
 
-<img src="images/upload.png" height="50%" width="70%">
+![](images/upload.png)
 
 En suivant le flux tcp on obtient : 
 
