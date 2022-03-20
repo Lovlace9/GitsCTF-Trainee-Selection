@@ -1,14 +1,13 @@
 # Challenges - GitsCTF
 
 ## D33ply challenge -- Cryptographie
-<img src="images/nta-chal1.png" height="50%" width="70%">
 
 
+En passant le code dans l'outils cyberchef on obtient un code binaire:
 
-Paste the code into cyberchef gives a binary code :
 
+Une fois décodé on obtient le flag : `GitsCTF{} `
 
-When we apply the binary decode in cyberchef it's gives the flag: ` `
 
 
 ## FTP Stuck Challenge -- Forensic
