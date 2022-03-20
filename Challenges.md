@@ -1,4 +1,4 @@
-#Challenges - GitsCTF
+# Challenges - GitsCTF
 
 ## D33ply challenge -- Cryptography 
 <img src="images/nta-chal1.png" height="50%" width="50%">
