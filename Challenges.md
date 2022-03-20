@@ -1,6 +1,6 @@
 # Challenges - GitsCTF
 
-## D33ply challenge -- Cryptography 
+## D33ply challenge -- Cryptographie
 <img src="images/nta-chal1.png" height="50%" width="70%">
 
 
@@ -14,15 +14,18 @@ When we apply the binary decode in cyberchef it's gives the flag: ` `
 ## FTP Stuck Challenge -- Forensic
 <img src="images/nta-chal1.png" height="50%" width="70%">
 
-We have a pcap file named FORENSIC1.pcap
+Nous avons un fichier pcap nommé FORENSIC1.pcap
 
-We must found an upload file who contain the flag.
+Nous devons retrouvé la trace d'un fichier uploader pour trouver le flag.
 
-I started by filtering using the http protocol. Browsing through the captured packets I found a file named upload.php.
+J'ai commencé par filtrer les packets suivant le protocol http. En parcourant les packets obtenus, on trouve un fichier nommé upload.php .
+
 <img src="images/upload.png" height="50%" width="70%">
 
-Following the tcp stream we have.
+En suivant le flux tcp on obtient : 
 
 <img src="images/tcpstream.png" height="50%" width="70%">
 
-The flag is : `GitsCTF{F4R3NC1$_N3TW0KS}`
+En évoulant flux par flux on trouve le flag dans le flux du packet n° 29 : `GitsCTF{F4R3NC1$_N3TW0KS}`.
+
+<img src="images/ftpflag.png" height="50%" width="70%">
