@@ -1,5 +1,10 @@
 # 📚 Projet de Gestion de Bibliothèque en Ligne
 
+## Membres du groupe
+- Omella I. A. DADO (SI)
+- TOUDOGUIN Gérard (SIRI)
+
+
 ## 📌 Description
 Ce projet est une **plateforme web de gestion de bibliothèque** permettant au gestionnaire de la bibliothèque d'administrer les emprunts des utilisateurs enregistrés. Il est développé en **Java avec Spring Boot**, en utilisant **JPA/Hibernate** pour la gestion des données et **JSP avec Bootstrap** pour l'interface utilisateur.
 
